@@ -2,7 +2,7 @@ name: Reporte de Error
 description: Reportar un error
 title: "[Error]: "
 labels: ["bug", "needs triage"]
-assignees: ["carlosg@pahventure.com"]
+assignees: ["cjaviersaldana"]
 body:
   - type: markdown
     attributes:
