@@ -2,7 +2,7 @@ name: Solicitud de Funcionalidad
 description: Sugiere una idea para este proyecto
 title: "[Funcionalidad]: "
 labels: ["enhancement", "needs triage"]
-assignees: ["carlosg@pahventure.com"]
+assignees: ["cjaviersaldana"]
 body:
   - type: markdown
     attributes:
