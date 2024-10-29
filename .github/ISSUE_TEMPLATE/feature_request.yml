@@ -1,0 +1,28 @@
+name: Solicitud de Funcionalidad
+description: Sugiere una idea para este proyecto
+title: "[Funcionalidad]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de sugerir una nueva funcionalidad!
+  - type: textarea
+    id: problem
+    attributes:
+      label: ¿Tu solicitud está relacionada con algún problema?
+      description: Por favor describe qué problema estás tratando de resolver.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe la solución que te gustaría
+      description: ¿Qué te gustaría que se implementara?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe las alternativas que has considerado
+      description: ¿Has considerado alguna solución alternativa?
