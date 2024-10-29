@@ -1,0 +1,30 @@
+name: Reporte de Error
+description: Reportar un error
+title: "[Error]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de llenar este reporte de error!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué sucedió?
+      description: También cuéntanos, ¿qué esperabas que sucediera?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Pasos para reproducir
+      description: ¿Cómo podemos reproducir este problema?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión
+      description: ¿Qué versión estás usando?
+    validations:
+      required: true
