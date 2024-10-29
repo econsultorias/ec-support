@@ -2,6 +2,7 @@ name: Pregunta
 description: Haz una pregunta general
 title: "[Pregunta]: "
 labels: ["question", "needs triage"]
+assignees: ["carlosg@pahventure.com"]
 body:
   - type: markdown
     attributes:
