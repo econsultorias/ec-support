@@ -1,0 +1,21 @@
+name: Pregunta
+description: Haz una pregunta general
+title: "[Pregunta]: "
+labels: ["question", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por contactarnos con tu pregunta!
+  - type: textarea
+    id: question
+    attributes:
+      label: ¿Cuál es tu pregunta?
+      description: Por favor proporciona todo el contexto posible
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto adicional
+      description: Agrega cualquier otro contexto sobre la pregunta aquí
